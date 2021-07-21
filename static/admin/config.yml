@@ -1,0 +1,922 @@
+backend:
+  name: git-gateway
+  branch: staging
+
+media_folder: src/images/uploads
+public_folder: ../../images/uploads/
+
+collections:
+  - name: blog
+    label: Blog
+    folder: src/content/blog
+    create: true
+    fields:
+      - { name: path, label: Path }
+      - { name: date, label: Date, widget: date }
+      - { name: title, label: Title }
+      - { name: description, label: Description }
+      - { name: author, label: Author, default: 'airgapnetworks' }
+      - { name: body, label: Body, widget: markdown }
+      - { name: image, label: Image, widget: image, media_library: { config: { multiple: false }}}
+      - { name: tags, label: Tags, widget: list, default: [] }
+  - name: events
+    label: Events
+    folder: src/content/events
+    create: true
+    fields:
+      - { name: path, label: Path }
+      - { name: date, label: Date, widget: date }
+      - { name: title, label: Title }
+      - { name: description, label: Description }
+      - { name: image, label: Image, widget: image, media_library: { config: { multiple: false }}}
+      - { name: body, label: Body, widget: markdown }
+  - name: features
+    label: Zero Trust Features
+    folder: src/content/features
+    fields:
+      - { name: path, label: Path }
+      - { name: title, label: Title }
+      - { name: description, label: Description }
+      - { name: body, label: Body, widget: markdown }
+  - name: solutions
+    label: Solutions
+    folder: src/content/solutions
+    fields:
+      - { name: path, label: Path }
+      - { name: title, label: Title }
+      - { name: description, label: Description }
+      - { name: body, label: Body, widget: markdown }
+  - name: resources
+    label: Resources
+    folder: src/content/resources
+    create: true
+    fields:
+      - { name: template, label: Template, default: 'default', widget: "select", options: ["default", "noemail", "nopage"] }
+      - { name: order, label: Order, widget: 'number', default: 0 }
+      - { name: downloadable, label: Downloadable, default: '../../images/uploads/airgap-solution-brief.pdf', widget: "file", required: false }
+      - { name: hubspotCTA, label: Hubspot CTA ID, default: "19fdb517-57a6-4dc1-9b27-ebbd29058ac4", widget: "file", required: false }
+      - { name: path, label: Path }
+      - { name: actionTitle, label: Action Title, default: 'Download' }
+      - { name: caption, label: Caption }
+      - { name: subtitle, label: Subtitle, required: false }
+      - { name: title, label: Title }
+      - { name: description, label: Description }
+      - { name: image, label: Image, widget: image, media_library: { config: { multiple: false }}}
+      - { name: body, label: Body, widget: markdown, required: false }
+  - name: jobs
+    label: Jobs
+    folder: src/content/jobs
+    create: true
+    fields:
+      - { name: path, label: Path }
+      - { name: date, label: Date, widget: date }
+      - { name: title, label: Title }
+      - { name: description, label: Description }
+      - { name: location, label: Location }
+      - { name: department, label: Department }
+      - { name: body, label: Body, widget: markdown }
+  - name: textPages
+    label: Text Pages
+    folder: src/content/textPages
+    create: true
+    slug: 'index'
+    path: '{{title}}/index'
+    fields:
+      - { name: title, label: Title }
+      - { name: description, label: Description }
+      - { name: body, label: Body, widget: markdown }
+  - name: pages
+    label: Pages
+    files:
+      - label: "Home page"
+        name: home
+        file: "src/content/pages/home.yml"
+        fields:
+          - name: hero
+            label: "Hero"
+            widget: object
+            fields:
+              - name: title
+                label: Title
+              - name: subtitle
+                label: Subtitle
+          - name: video
+            label: "Video"
+            widget: object
+            fields:
+              - name: title
+                label: Title
+              - name: text
+                label: Text
+              - name: buttonText
+                label: Button Text
+              - name: buttonURL
+                label: Button URL
+          - name: webinar
+            label: "Webinar"
+            widget: object
+            fields:
+              - name: title
+                label: Title
+              - name: url
+                label: URL
+              - name: urlTitle
+                label: URL Title
+              - name: logoURL
+                label: Logo URL
+                widget: image
+          - name: content1
+            label: "Content 1"
+            widget: object
+            fields:
+              - name: title
+                label: title
+              - name: text
+                label: text
+                widget: text
+              - name: counterCaption
+                label: Counter Caption
+              - name: thumbCaption
+                label: thumbCaption
+                widget: text
+          - name: ransomwareOverview
+            label: Ransomware Overview
+            widget: object
+            fields:
+              - name: title
+                label: Title
+              - name: ransomware1
+                label: Ransomware 1
+                widget: object
+                fields:
+                  - name: title
+                    label: Title
+                  - name: text
+                    label: Text
+              - name: ransomware2
+                label: Ransomware 2
+                widget: object
+                fields:
+                  - name: title
+                    label: Title
+                  - name: text
+                    label: Text
+              - name: ransomware3
+                label: Ransomware 3
+                widget: object
+                fields:
+                  - name: title
+                    label: Title
+                  - name: text
+                    label: Text
+          - name: features
+            label: Features
+            widget: object
+            fields:
+              - name: feature1
+                label: Feature1
+                widget: object
+                fields:
+                  - name: title
+                    label: Title
+                  - name: intro
+                    label: Intro
+                    widget: text
+                  - name: text
+                    label: Text
+                    widget: text
+              - name: feature2
+                label: Feature2
+                widget: object
+                fields:
+                  - name: title
+                    label: Title
+                  - name: intro
+                    label: Intro
+                    widget: text
+                  - name: text
+                    label: Text
+                    widget: text
+              - name: feature3
+                label: Feature3
+                widget: object
+                fields:
+                  - name: title
+                    label: Title
+                  - name: intro
+                    label: Intro
+                    widget: text
+                  - name: text
+                    label: Text
+                    widget: text
+          - name: benefits
+            label: Benefits
+            widget: object
+            fields:
+              - name: title
+                label: Title
+              - name: text
+                label: Text
+                widget: text
+              - name: tableHead
+                label: Table Head
+                widget: object
+                fields:
+                  - name: column1
+                    title: Column 1
+                  - name: column2
+                    title: Column 2
+                  - name: column3
+                    title: Column 3
+              - name: tableContent
+                label: Table Content
+                widget: list
+                fields:
+                  - name: column1
+                    label: Column 1
+                  - name: column2
+                    label: Column 2
+                  - name: column3
+                    label: Column 3
+          - name: featuredResources
+            label: Featured Resources
+            widget: object
+            fields:
+              - name: title
+                label: Title
+              - name: resource1
+                label: Resource 1
+                widget: object
+                fields:
+                  - name: title
+                    label: Title
+                  - name: text
+                    label: Text
+                    widget: text
+                  - name: downloadable
+                    label: Downloadable
+                    default: '../../images/uploads/airgap-solution-brief.pdf'
+                    widget: file
+                    required: false
+              - name: resource2
+                label: Resource 2
+                widget: object
+                fields:
+                  - name: title
+                    label: Title
+                  - name: text
+                    label: Text
+                    widget: text
+                  - name: downloadable
+                    label: Downloadable
+                    default: '../../images/uploads/airgap-solution-brief.pdf'
+                    widget: file
+                    required: false
+              - name: resource3
+                label: Resource 3
+                widget: object
+                fields:
+                  - name: title
+                    label: Title
+                  - name: text
+                    label: Text
+                    widget: text
+                  - name: downloadable
+                    label: Downloadable
+                    default: '../../images/uploads/airgap-solution-brief.pdf'
+                    widget: file
+                    required: false
+          - name: contact
+            title: Contact
+            widget: object
+            fields:
+              - name: title
+                label: Title
+              - name: text
+                label: Text
+                widget: text
+              - name: cards
+                label: Cards
+                widget: list
+                fields:
+                  - name: title
+                    label: title
+                  - name: text
+                    label: text
+      - label: "RKS page"
+        name: product
+        file: "src/content/pages/product.yml"
+        fields:
+          - name: hero
+            label: Hero
+            widget: object
+            fields:
+              - name: title
+                label: Title
+          - name: copy
+            label: Copy
+            widget: object
+            fields:
+              - name: text
+                label: Text
+                widget: markdown
+          - name: contents
+            label: Contents
+            widget: list
+            fields:
+              - name: text
+                label: text
+                widget: markdown
+              - name: image
+                label: Image
+                widget: image
+          - name: wiify
+            label: WIIFY
+            widget: object
+            fields:
+              - name: title
+                label: Title
+              - name: cards
+                label: Cards
+                widget: list
+                fields:
+                  - name: title
+                    label: Title
+                  - name: text
+                    label: Text
+                    widget: markdown
+          - name: cta
+            label: CTA
+            widget: object
+            fields:
+              - name: title
+                label: Title
+              - name: text
+                label: Text
+                widget: text
+              - name: actionTitle
+                label: Action Title
+              - name: actionURL
+                label: Action URL
+              - name: videoURL
+                label: Video URL
+      - label: "ZTAA page"
+        name: ztaa
+        file: "src/content/pages/ztaa.yml"
+        fields:
+          - name: hero
+            label: Hero
+            widget: object
+            fields:
+              - name: title
+                label: Title
+          - name: copy
+            label: Copy
+            widget: object
+            fields:
+              - name: text
+                label: Text
+                widget: markdown
+          - name: specification
+            label: Specification
+            widget: object
+            fields:
+              - name: title
+                label: Title
+              - name: image
+                label: Image
+                widget: image
+              - name: table
+                label: Table
+                widget: object
+                fields:
+                  - name: head
+                    label: Head
+                    widget: object
+                    fields:
+                      - name: title
+                        label: Title
+                      - name: content
+                        label: Content
+                  - name: rows
+                    label: Rows
+                    widget: list
+                    fields:
+                      - name: title
+                        label: Title
+                      - name: content
+                        label: Content
+          - name: cta
+            label: CTA
+            widget: object
+            fields:
+              - name: title
+                label: Title
+              - name: text
+                label: Text
+                widget: text
+              - name: actionTitle
+                label: Action Title
+              - name: actionURL
+                label: Action URL
+      - label: "ZTI for Network page"
+        name: zti-network
+        file: "src/content/pages/zti-network.yml"
+        fields:
+          - name: hero
+            label: Hero
+            widget: object
+            fields:
+              - name: title
+                label: Title
+          - name: copy
+            label: Copy
+            widget: object
+            fields:
+              - name: text
+                label: Text
+                widget: markdown
+          - name: contents
+            label: Contents
+            widget: list
+            fields:
+              - name: text
+                label: text
+                widget: markdown
+              - name: image
+                label: Image
+                widget: image
+          - name: wiify
+            label: WIIFY
+            widget: object
+            fields:
+              - name: title
+                label: Title
+              - name: cards
+                label: Cards
+                widget: list
+                fields:
+                  - name: title
+                    label: Title
+                  - name: text
+                    label: Text
+                    widget: markdown
+          - name: cta
+            label: CTA
+            widget: object
+            fields:
+              - name: title
+                label: Title
+              - name: text
+                label: Text
+                widget: text
+              - name: actionTitle
+                label: Action Title
+              - name: actionURL
+                label: Action URL
+      - label: "ZTI for Endpoint page"
+        name: zti-endpoint
+        file: "src/content/pages/zti-endpoint.yml"
+        fields:
+          - name: hero
+            label: Hero
+            widget: object
+            fields:
+              - name: title
+                label: Title
+          - name: copy
+            label: Copy
+            widget: object
+            fields:
+              - name: text
+                label: Text
+                widget: markdown
+          - name: contents
+            label: Contents
+            widget: list
+            fields:
+              - name: text
+                label: text
+                widget: markdown
+              - name: image
+                label: Image
+                widget: image
+          - name: wiify
+            label: WIIFY
+            widget: object
+            fields:
+              - name: title
+                label: Title
+              - name: cards
+                label: Cards
+                widget: list
+                fields:
+                  - name: title
+                    label: Title
+                  - name: text
+                    label: Text
+                    widget: markdown
+          - name: cta
+            label: CTA
+            widget: object
+            fields:
+              - name: title
+                label: Title
+              - name: text
+                label: Text
+                widget: text
+              - name: actionTitle
+                label: Action Title
+              - name: actionURL
+                label: Action URL
+      - label: "Partners page"
+        name: partners
+        file: "src/content/pages/partners.yml"
+        fields:
+          - name: breadcrumb
+            label: Breadcrumb
+          - name: hero
+            label: Hero
+            widget: object
+            fields:
+              - name: title
+                label: Title
+          - name: copy
+            label: Copy
+            widget: object
+            fields:
+              - name: text
+                label: Text
+                widget: markdown
+      - label: "Product Partners page"
+        name: pp
+        file: "src/content/pages/pp.yml"
+        fields:
+          - name: seo
+            label: Seo
+            widget: object
+            fields:
+              - name: title
+                label: Title
+              - name: description
+                label: Description
+          - name: hero
+            label: Hero
+            widget: object
+            fields:
+              - name: title
+                label: Title
+          - name: copy
+            label: Copy
+            widget: object
+            fields:
+              - name: text
+                label: Text
+                widget: markdown
+          - name: form
+            label: Form
+            widget: object
+            fields:
+              - name: hubspotFormId
+                label: Hubspot Form ID
+              - name: response
+                label: Form Response
+          - name: partners
+            label: Partners
+            widget: object
+            fields:
+              - name: title
+                label: Title
+              - name: contents
+                label: Contents
+                widget: list
+                fields:
+                  - name: text
+                    label: Text
+                  - name: image
+                    label: Image
+                    widget: file
+                  - name: number
+                    label: Number
+          - name: demo
+            label: Demo
+            widget: object
+            fields:
+              - name: title
+                label: Title
+              - name: text
+                label: Text
+              - name: button
+                label: Button text
+              - name: buttonURL
+                label: Button URL
+          - name: advantages
+            label: Advantages
+            widget: object
+            fields:
+              - name: title
+                label: Title
+              - name: contents
+                label: Contents
+                widget: list
+                fields:
+                  - name: title
+                    label: Title
+                  - name: text
+                    label: Text
+                  - name: image
+                    label: Image
+                    widget: file
+      - label: "Thanks page"
+        name: thanks
+        file: "src/content/pages/thanks.yml"
+        fields:
+          - name: hero
+            label: Hero
+            widget: object
+            fields:
+              - name: title
+                label: Title
+          - name: copy
+            label: Copy
+            widget: object
+            fields:
+              - name: text
+                label: Text
+                widget: markdown
+          - name: form
+            label: Form
+            widget: object
+            fields:
+              - name: id
+                label: Hubspot Form ID
+              - name: response
+                label: Response message
+      - label: "The Airgap Anti-Ransomware for Non-Profit Organization"
+        name: arfn
+        file: "src/content/pages/arfn.yml"
+        fields:
+          - name: hero
+            label: Hero
+            widget: object
+            fields:
+              - name: title
+                label: Title
+          - name: copy
+            label: Copy
+            widget: object
+            fields:
+              - name: text
+                label: Text
+                widget: markdown
+          - name: content
+            label: Cards Content
+            widget: object
+            fields:
+              - name: cards
+                label: Cards
+                widget: list
+                fields:
+                  - name: attack
+                    label: Attack name
+                  - name: date
+                    label: date of attack
+          - name: form
+            label: Form
+            widget: object
+            fields:
+              - name: title
+                label: Title
+              - name: description
+                label: Text
+                widget: markdown
+              - name: hubspotFormId
+                label: Hubspot Form ID
+              - name: submitResponse
+                label: Response message
+      - label: Network Segmentation
+        name: nsp
+        file: "src/content/pages/nsp.yml"
+        fields:
+          - name: hero
+            label: Hero
+            widget: object
+            fields:
+              - name: title
+                label: Title
+                widget: markdown
+          - name: cards
+            label: Cards
+            widget: object
+            fields:
+              - name: logo
+                label: Logo
+                widget: file
+              - name: authorLogo
+                label: Author Logo
+                widget: file
+          - name: contents
+            label: Content
+            widget: list
+            fields:
+              - name: text
+                label: Text
+                widget: markdown
+              - name: videoURL
+                label: Video URL
+              - name: buttonLink
+                label: Button Link
+              - name: shouldShowAuthors
+                label: Should show authors
+              - name: authors
+                label: Authors
+                widget: list
+                fields:
+                  - name: name
+                    label: Name
+                  - name: position
+                    label: Position
+                  - name: linkedinUrl
+                    label: LinkedIn URL
+                  - name: image
+                    label: Image
+                    widget: file
+          - name: quote
+            label: Quote
+            widget: object
+            fields:
+              - name: text
+                label: Text
+              - name: author
+                label: Author
+              - name: linkedinUrl
+                label: LinkedIn URL
+              - name: authorImage
+                label: Author image
+                widget: file
+      - label: "Colonial Pipeline Ransomware Attack"
+        name: cpra
+        file: "src/content/pages/cpra.yml"
+        fields:
+          - name: hero
+            label: Hero
+            widget: object
+            fields:
+              - name: title
+                label: Title
+          - name: customBlogPost
+            label: Custom Blog Post
+            widget: object
+            fields:
+              - name: title
+                label: Title
+                widget: text
+              - name: date
+                label: Date
+                widget: text
+              - name: author
+                label: Author
+                widget: text
+              - name: thumbnail
+                label: Thumbnail
+                widget: file
+              - name: authorImage
+                label: Author Image
+                widget: file
+          - name: contents
+            label: Contents
+            widget: object
+            fields:
+              - name: text
+                label: Text
+                widget: text
+              - name: buttonLink
+                label: Button Link
+                widget: text
+              - name: videoURL
+                label: Video URL
+                widget: text
+              - name: posterId
+                label: Poster ID
+                widget: text
+              - name: authors
+                label: authors
+                widget: object
+                fields:
+                  - name: name
+                    label: Author name
+                    widget: text
+                  - name: position
+                    label: Author position
+                    widget: text
+                  - name: linkedinUrl
+                    label: LinkedIn URL
+                    widget: text
+                  - name: image
+                    label: Author Image
+                    widget: file
+          - name: quote
+            label: Quote
+            widget: object
+            fields:
+              - name: text
+                label: Text 
+              - name: author
+                label: Author Name
+              - name: linkedinUrl
+                label: LinkedIn URL
+              - name: authorImage
+                label: Author Image
+                widget: file
+          - name: form
+            label: Form
+            widget: object
+            fields:
+              - name: title
+                label: Title
+              - name: formId
+                label: Hubspot Form ID
+              - name: response
+                label: Form Response
+          - name: formDescription
+            label: Form Description
+            widget: object
+            fields:
+              - name: title
+                label: Title
+              - name: paragraph
+                label: Text
+                widget: markdown
+              - name: button
+                label: Button Text
+              - name: buttonURL
+                label: Button URL
+      - label: "Airgap Ransomware Vulnerability Scanner™"
+        name: arvs
+        file: "src/content/pages/arvs.yml"
+        fields:
+          - name: hero
+            label: Hero
+            widget: object
+            fields:
+              - name: title
+                label: Title
+          - name: copy
+            label: Copy
+            widget: object
+            fields:
+              - name: text
+                label: Text
+          - name: form
+            label: Form
+            widget: object
+            fields:
+              - name: title
+                label: Title
+              - name: subtitle
+                label: Subtitle
+              - name: paragraph
+                label: First paragraph
+              - name: paragraph2
+                label: Second paragraph
+              - name: submitResponse
+                label: Response message (form submit)
+          - name: content
+            label: Content
+            widget: object
+            fields:
+              - name: cards
+                label: Cards
+                widget: list
+                fields:
+                  - name: value
+                    label: Value
+                  - name: description
+                    label: Description
+              - name: listTitle
+                label: Text section title
+              - name: list
+                label: List
+                widget: list
+                fields:
+                  - name: text
+                    label: List item
+              - name: image
+                label: Image
+                widget: image
+              - name: imageAlt
+                label: Image alternative text (for screen readers)
+              - name: imageCaption
+                label: Image caption
+              - name: email
+                label: Contact email
+              - name: about
+                label: About
+                widget: object
+                fields:
+                  - name: title
+                    label: Title
+                  - name: text
+                    label: Text
+                  - name: link
+                    label: Link

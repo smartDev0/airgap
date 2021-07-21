@@ -1,0 +1,67 @@
+id: zti-network
+hero:
+  title: Zero Trust Isolation™
+copy:
+  text: >-
+    Ransomware and malware continue to wreak havoc across all industries. A
+    single infected device on a trusted network can propagate ransomware and
+    bring down an entire network in seconds. 
+
+
+    Airgap's Zero Trust Isolation protects against ransomware spread by isolating devices in a ring-fence. By default, they cannot communicate with each other. This eliminates lateral threat propagation. 
+
+
+    Zero Trust Isolation is agentless, making it the industry's only platform that provides these protections on all devices (managed or unmanaged), regardless of whether they are on corporate or public networks.
+  image:  ../../images/uploads/privateapplications.png
+contents:
+  - text: >-
+      ### Visibility
+
+
+      Zero Trust Isolation provides visibility for all traffic flows, including authorized and unauthorized communications, between all devices in a shared VLAN.
+    image: ../../images/uploads/network-communication.png
+  - text: >-
+      ### Ransomware Kill Switch
+
+
+      Zero Trust Isolation also enables the Ransomware Kill Switch, which instantly shuts down all lateral traffic when ransomware is detected on the network.
+    image: ../../images/uploads/ransomwarekillswitchcommandcenter.png
+  - text: >-
+      ### Autonomous Policy Framework
+
+
+      Zero Trust Isolation auto-enforces business policies as devices enter and leave the network with autonomous policy controls.
+    image: ../../images/uploads/isolation-policies.png
+  - text: >-
+      ### Secure Application Access
+
+
+      Reduce the attack surface on enterprise private applications by eliminating network level access. And add additional security with mandatory SSO and MFA for any user, any device, from any location.
+    image: ../../images/uploads/dashboard-2.png
+wiify:
+  title: What's in it for you
+  cards:
+    - title: For Security Executives
+      text: >-
+        - Augments and complements the existing security posture
+
+        - Business-transparent emergency lockdown switch in the event of a ransomware attack
+
+        - Easy install and intuitive operational management
+
+        - Reduce the threat landscape with Zero Trust Isolation
+    - title: For Security Ops
+      text: >-
+        - No forklift upgrades allowing a seamless integration to existing
+        security posture/infrastructure
+
+        - No agents required, minimizing bloat on endpoints
+
+        - Implicit support for all endpoints including IoTs
+
+        - “1-click” to instantly lockdown the network allowing remediation without business impact
+cta:
+  title: Airgap Zero Trust Isolation Solution Brief
+  text: Airgap’s patent pending Zero Trust Isolation contains and reduces the blast radius of any malicious attack.
+  actionTitle: Download Solution Brief
+  actionURL: /resources/solution-brief/

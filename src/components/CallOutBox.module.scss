@@ -1,0 +1,26 @@
+@import '../scss/bootstrap-config';
+
+.container {
+  background-color: white;
+  border-radius: 10px;
+  position: fixed;
+  left: 16px;
+  bottom: 16px;
+  box-shadow: 0 0 40px transparentize(#000, .9);
+  z-index: 1010;
+}
+
+@media (max-width: 768px) {
+  .opened {
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+  }
+}
+
+.close {
+  position: absolute;
+  top: 0;
+  right: 0;
+}

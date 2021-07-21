@@ -1,0 +1,47 @@
+@import './bootstrap-config';
+
+html,
+body {
+    background-color: $white;
+    height: auto !important;
+}
+
+body {
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+svg {
+    font-size: 0;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    width: 5%;
+}
+
+.speaker-image-wrapper {
+    width: 194px;
+    height: 194px;
+}
+
+.speaker-image {
+    width: 194px;
+    height: 194px;
+    object-fit: cover;
+}
+
+.partner-number {
+  font-size: 25px;
+  font-weight: bold;
+
+  &_rounded {
+    background-image: linear-gradient($blue-700, $blue-400);
+    color: $white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+  }
+}

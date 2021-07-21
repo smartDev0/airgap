@@ -1,0 +1,27 @@
+@import '../scss/bootstrap-config';
+
+.banner {
+    background-color: $grey-950;
+    color: $white;
+    overflow: hidden;
+    position: relative;
+    z-index: 10;
+}
+
+.bannerClosed {
+    height: 0;
+}
+
+.row {
+    align-items: center;
+    justify-content: center;
+    padding-top: $spacer;
+    padding-bottom: $spacer;
+}
+
+.close {
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: $spacer;
+}

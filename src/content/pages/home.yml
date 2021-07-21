@@ -1,0 +1,121 @@
+hero:
+  title: The best defense against ransomware
+  subtitle: Zero Trust Isolation™ Platform that confines ransomware to a single
+    device. Put an end to threat propagation and protect your infrastructure -
+    in minutes, not months.
+video:
+  title: Introducing Agentless Zero Trust Isolation
+  text: Prevent threat propagation even if your perimeter has been breached or you
+    have unpatched servers.
+  buttonText: Learn more
+  buttonURL: /zero-trust-isolation/
+webinar:
+  title: Historical Colonial Pipeline Ransomware Attacks
+  subtitle: Everything you need to know
+  url: /colonial-pipeline-ransomware-attack
+  urlTitle: Learn more
+  logoURL: ../../images/uploads/colonialpipeline.png
+webinar2:
+  title: Meet Airgap at Black Hat 2021 Booth IC34
+  url: /events/black-hat-2021-USA
+  urlTitle: Register
+  logoURL: ../../images/uploads/blackhat_share.png
+content1:
+  title: Trust is often breached
+  text: >-
+    Traditional security controls allow excessive trust between corporate
+    assets. Devices on shared networks (VLANs) can freely communicate and static
+    firewall / VPN policies grant network access to the application stack.
+
+
+    This means, once the threat has landed inside your network, it is free to expand across devices and applications. We all know what happens next!
+  counterCaption: Year to date ransomware damage
+  thumbCaption: 51% organizations were hit by ransomware in last 12 months. That
+    is 1⁄2 of Fortune 5000 Companies
+ransomwareOverview:
+  title: How Ransomware Cripples Organizations?
+  ransomware1:
+    title: Penetrate
+    text: Infect one device and use it as a launchpad
+  ransomware2:
+    title: Proliferate
+    text: Infect other devices and business applications
+  ransomware3:
+    title: Paralyze
+    text: Mass encrypt data and steal intellectual property
+features:
+  feature1:
+    title: Total Protection
+    intro: The world’s first Agentless Zero Trust Isolation Platform
+    text: Threat lands and expands to other devices as well as your business
+      applications. Airgap ensures protection for your enterprise by confining
+      the threat to a single device.
+  feature3:
+    title: Phased Migration
+    intro: Airgap your networks and applications at your convenience
+    text: Your business is your business. There is no wholesale commit to Airgap.
+      Migrate one network, one user, or one application at a time to Airgap and
+      ensure seamless transition to a secure infrastructure.
+  feature2:
+    title: Easy Deployment
+    intro: Zero Trust Isolation in minutes not months
+    text: Deploy with ease. No agents, APIs, design changes, or forklift upgrades.
+      Airgap’s standards-based solution interoperates with all your current
+      deployments.
+benefits:
+  title: Benefits
+  text: Traditional security solutions don't provide sufficient protection against
+    threat propagation. Airgap’s Zero Trust Isolation offers the best defense
+    for your organization.
+  tableHead:
+    column1: Security Risk
+    column2: Using Traditional Security Solutions
+    column3: Using Airgap Zero Trust Isolation
+  tableContent:
+    - column1: Lateral propagation starts over shared VLANs impacting large number of
+        devices
+      column2: Lateral propagation over shared VLAN remains unprotected
+      column3: Eliminates unauthorized communication and thwarts lateral propagation
+    - column1: "Penetrate business applications via endpoints and encrypt information\t"
+      column2: Network level access to business application stack exposes key
+        vulnerabilities
+      column3: Prevents data breaches via SSO/MFA authorization and intent check for
+        each application session
+    - column1: Exploit insecure remote work environments for data theft
+      column2: VPNs grant network level access to business application stack
+      column3: Limits VPN connections to application sessions only
+    - column1: Exploit legacy and insecure protocols for maximum impact
+      column2: Lack of dedicated monitoring and protection for legacy protocols
+      column3: Continuous profiling and AI/ML based anomaly detection for instant
+        protection
+featuredResources:
+  title: Featured Resources
+  resource1:
+    title: Solution Brief
+    text: Agentless Zero Trust Isolation
+    downloadable: ../../images/uploads/airgap-the-best-defense.pdf
+  resource2:
+    title: eBook
+    text: Why Zero Trust Isolation?
+    downloadable: ../../images/uploads/airgap-agentless-zero-trust-isolation-ebook.pdf
+  resource3:
+    title: In-depth Analysis
+    text: Breaking Down Ransomware
+    downloadable: ../../images/uploads/breaking-down-ransomware.pdf
+contact:
+  title: Zero Trust Isolation – Without Agents
+  text: Up and running in minutes, not months
+  cards:
+    - title: No Agents or APIs
+      text: Works for all devices
+    - title: No Forklift Upgrades
+      text: 100% interoperable
+    - title: No Design Changes
+      text: Everything remains in-place
+    - title: Standards Based
+      text: No custom overlay protocols
+    - title: Strategic Migration
+      text: One Network or one app at a time
+    - title: Enterprise Grade
+      text: High Availability architecture
+id: home

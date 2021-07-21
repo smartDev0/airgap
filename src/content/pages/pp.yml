@@ -1,0 +1,73 @@
+id: pp
+seo:
+  title: Product Partners
+  description: Product Partners
+hero:
+  title: Maximize your endpoint security with Zero Trust
+copy:
+  text: >-
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    Lorem Ipsum has been the industry's standard dummy text ever since the
+    1500s, when an unknown printer took a galley of type and scrambled it to
+    make a type specimen book. It has survived not only five centuries, but also
+    the leap into electronic typesetting, remaining essentially unchanged. It
+    was popularised in the 1960s with the release of Letraset sheets containing
+    Lorem Ipsum passages, and more recently with desktop publishing software
+    like Aldus PageMaker including versions of Lorem Ipsum.
+
+
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+form:
+  hubspotFormId: 795864fd-dfe8-45df-860a-0e61ac9e527b
+  response: Thank you!
+partners:
+  title: Turn Every Endpoint instantly into Zero Trust Endpoint
+  contents:
+    - text: Crowdstrike. Lorem Ipsum is simply dummy text of the printing and
+        typesetting industry. Lorem Ipsum has been the industry's standard dummy
+        text ever since the 1500s, when an unknown printer took a galley of type
+        and scrambled it to make a type specimen book.
+      image: ../../images/placeholders/company-thumb.jpg
+      number: 2
+    - text: Zeguro. Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book.
+      image: ../../images/placeholders/company-thumb.jpg
+      number: 2
+    - text: Splunk. Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book.
+      image: ../../images/placeholders/company-thumb.jpg
+      number: 2
+    - text: Groupsense. Lorem Ipsum is simply dummy text of the printing and
+        typesetting industry. Lorem Ipsum has been the industry's standard dummy
+        text ever since the 1500s, when an unknown printer took a galley of type
+        and scrambled it to make a type specimen book.
+      image: ../../images/placeholders/company-thumb.jpg
+      number: 2
+demo:
+  title: Stop the spread of ransomware and malware at the first endpoint
+  text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    Lorem Ipsum has been the industry's standard dummy text ever since the
+    1500s, when an unknown printer took a galley of type and scrambled it to
+    make a type specimen book. It has survived not only five centuries, but also
+    the leap into electronic typesetting, remaining essentially unchanged. It
+    was popularised in the 1960s with the release of Letraset sheets containing
+    Lorem Ipsum passages, and more recently with desktop publishing software
+    like Aldus PageMaker including versions of Lorem Ipsum.
+  button: Watch the demo
+  buttonURL: /
+advantages:
+  title: Bolster your endpoint security posture
+  contents:
+    - image: ../../images/placeholders/card-thumb.jpg
+      title: Greater ransomware and malware protection
+      text: Gives other endpoint security tools more time to detect
+    - image: ../../images/placeholders/card-thumb.jpg
+      title: Greater ransomware and malware protection
+      text: Gives other endpoint security tools more time to detect
+    - image: ../../images/placeholders/card-thumb.jpg
+      title: Greater ransomware and malware protection
+      text: Gives other endpoint security tools more time to detect

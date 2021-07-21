@@ -1,0 +1,79 @@
+@import '../scss/bootstrap-config';
+
+.container {
+    align-items: center;
+    display: flex;
+}
+
+.title {
+    padding: $spacer * .5 $spacer * 3;
+}
+
+.item {
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: $spacer * 5;
+
+    &:last-child {
+        margin-right: 0;
+    }
+
+    &-expanded {
+        .item-icon {
+            transform: rotate(180deg) translateY(-2px);
+        }
+    }
+
+    &-title {
+        padding-right: $spacer;
+    }
+
+    &-icon {
+        display: inline-block;
+    }
+}
+
+.dropdown {
+    background-color: $white;
+    border-radius: 5px;
+    box-shadow: 0 3px 15px transparentize($black, .8);
+    position: absolute;
+    top: 85%;
+    z-index: 1;
+}
+
+.submenu {
+    background-color: $white;
+    padding: $spacer 0;
+
+    & .item {
+        color: $grey-900;
+        font-weight: 500;
+        margin-right: 0;
+
+        &-link {
+            color: inherit;
+            display: block;
+            padding: $spacer $spacer * 3;
+            transition: background-color .2s linear;
+
+            &:hover {
+                background-color: $blue-400;
+                color: $white;
+            }
+        }
+    }
+}
+
+.light {
+    background-color: $grey-100;
+}
+
+.action {
+    padding-right: $spacer * 3;
+
+    &:last-child {
+        padding-right: 0;
+    }
+}

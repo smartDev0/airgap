@@ -1,0 +1,37 @@
+@import '../scss/bootstrap-config';
+
+.list {
+    max-width: 545px;
+}
+
+.border {
+    border-bottom: 1px solid $grey-100;
+}
+
+.item {
+    display: flex;
+    padding: $spacer 0;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: none;
+    }
+
+    &:focus {
+        outline: none;
+        color: $secondary;
+    }
+
+    &-title {
+        display: inline;
+    }
+
+    &-icon {
+        display: inline;
+    }
+
+    &-inner {
+        display: inline-block;
+        flex: 1;
+    }
+}

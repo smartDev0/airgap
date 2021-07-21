@@ -1,0 +1,31 @@
+@import '../scss/bootstrap-config';
+
+.cell {
+    &-active {
+        background-color: $grey-100;
+    }
+
+    @include media-breakpoint-up(md) {
+        background-color: $grey-100;
+    }
+}
+
+.textCell {
+    display: none;
+
+    @include media-breakpoint-up(md) {
+        display: block;
+    }
+}
+
+.textCellActive {
+    display: block;
+}
+
+.text {
+    font-size: 11px;
+
+    @include media-breakpoint-up(md) {
+        font-size: 16px;
+    }
+}

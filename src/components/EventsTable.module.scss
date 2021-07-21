@@ -1,0 +1,15 @@
+@import '../scss/bootstrap-config';
+
+.cell {
+    @include media-breakpoint-up(md) {
+        background-color: $grey-100;
+    }
+}
+
+.text {
+    font-size: 11px;
+
+    @include media-breakpoint-up(md) {
+        font-size: 16px;
+    }
+}

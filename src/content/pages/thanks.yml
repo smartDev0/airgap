@@ -1,0 +1,17 @@
+id: thanks
+hero:
+  title: Thank You for Signing up for Our Newsletter
+copy:
+  text: >-
+    Thank you for your Newsletter sign-up. The Airgap Newsletter delivers
+    monthly cybersecurity blog articles, updates on the latest threats, and
+    suggestions for helpful resources.
+
+
+    Would you like a live demonstration of the Airgap Ransomware Kill Switch product, tailored to your security questions and network requirements?
+
+
+    Our representatives can show you the capabilities of the most appropriate Zero Trust Isolation for your situation, answer your questions and provide additional material to support your research.
+form:
+  id: b182741e-90a7-48b5-abf9-df835d229cb4
+  response: Thank you!

@@ -1,0 +1,121 @@
+- id: ragrawal
+  name: Ritesh Agrawal
+  email: ritesh.agrawal@airgap.io
+  position: CEO
+  company: Airgap Networks Inc.
+  image: ../../images/people/ragrawal.jpg
+  linkedinUrl: https://www.linkedin.com/in/helloritesh/
+- id: smohan
+  name: Satish Mohan
+  email: ''
+  position: CTO
+  company: Airgap Networks Inc.
+  image: ../../images/people/smohan.jpg
+  linkedinUrl: https://www.linkedin.com/in/satish-mohan-520697/
+- id: vadavi
+  name: Vinay Adavi
+  email: ''
+  position: Product Manager
+  company: Airgap Networks Inc.
+  image: ../../images/people/vadavi.jpg
+  linkedinUrl: https://www.linkedin.com/in/vinayadavi/
+- id: lorans
+  name: Lawrence Orans
+  email: ''
+  position: Research VP
+  company: Gartner
+  image: ../../images/people/lorans.jpg
+- id: nmacdonald
+  name: Neil MacDonald
+  email: ''
+  position: VP and Fellow
+  company: Gartner
+  image: ../../images/people/nmacdonald.jpg
+- id: sriley
+  name: Steve Riley
+  email: ''
+  position: Sr Director Analyst
+  company: Gartner
+  image: ../../images/people/sriley.jpg
+- id: ssathaye
+  name: Shirish Sathaye
+  position: General Partner
+  company: Cervin Ventures
+  image: ../../images/people/ssathaye.jpg
+  linkedinUrl: https://www.linkedin.com/in/sathaye/
+- id: asidana
+  name: Ashmeet Sidana
+  email: ''
+  position: Chief Engineer
+  company: Engineering Capital
+  image: ../../images/people/asidana.jpg
+  linkedinUrl: https://www.linkedin.com/in/sidana/
+- id: kelefant
+  name: Ken Elefant
+  email: ''
+  position: Managing Director and Co-Founder
+  company: Sorenson Ventures
+  image: ../../images/people/kelefant.jpg
+  linkedinUrl: https://www.linkedin.com/in/kenelefant/
+- id: hmarshall
+  name: Howard Marshall
+  email: ''
+  position: Former FBI Cybersecurity Division Official
+  company: Accenture Security
+  image: ../../images/people/hmarshall.jpeg
+  linkedinUrl: https://www.linkedin.com/in/howardmarshall1/
+- id: kbrock
+  name: Kevin R. Brock
+  email: ''
+  position: Cyber Security and mission technologies entrepreneur
+  company: NewStreet Global Solutions, LLC
+  image: ../../images/people/kbrock.jpeg
+  linkedinUrl: https://www.linkedin.com/in/kevin-r-brock-14276a59/
+- id: richardstiennon
+  name: Richard Stiennon
+  email: ''
+  position: Chief Research Analyst
+  company: IT-Harvest
+  image: ../../images/people/rstiennon.jpeg
+  linkedinUrl: https://www.linkedin.com/in/stiennon/
+- id: tdekkinga
+  name: Todd Dekkinga
+  email: ''
+  position: Chief Information Security Officer
+  company: Airgap
+  image: ../../images/people/tdekkinga.jpeg
+  linkedinUrl: https://www.linkedin.com/in/tdekkinga/
+- id: abockwinkel
+  name: Austin Bockwinkel
+  email: ''
+  position: Private Equity Portfolio Risk Management
+  company: ''
+  image: ../../images/people/abockwinkel.jpg
+  linkedinUrl: https://www.linkedin.com/in/bockwinkel/
+- id: kminder
+  name: Kurtis Minder
+  email: ''
+  position: CEO
+  company: GroupSense
+  image: ../../images/people/kminder.jpeg
+  linkedinUrl: https://www.linkedin.com/in/kurtisminder/
+- id: hochoa
+  name: Higinio Ochoa
+  email: ''
+  position: Incident Response Analyst
+  company: Harris Health System
+  image: ../../images/people/hochoa.jpeg
+  linkedinUrl: https://www.linkedin.com/in/x0hig/
+- id: sgavirneni
+  name: Sidd Gavirneni
+  email: ''
+  position: CEO & Co-founder
+  company: Zeguro
+  image: ../../images/people/sgavirneni.jpeg
+  linkedinUrl: https://www.linkedin.com/in/siddgavirneni/
+- id: airgapnetworks
+  name: Airgap Networks
+  position: Airgap Networks
+  company: Airgap Networks
+  image: ../../images/logo.png
+  linkedinUrl: https://www.linkedin.com/company/airgap-networks/

@@ -1,0 +1,24 @@
+@import '../scss/bootstrap-config';
+
+.counter {
+    display: flex;
+    flex-flow: row;
+}
+
+.cell {
+    background-color: transparent;
+    color: $white;
+    display: block;
+    font-size: 26px;
+    line-height: 50px;
+    margin: 1px;
+    width: 45px;
+    text-align: center;
+}
+
+.comma {
+    color: $white;
+    font-size: 26px;
+    line-height: 50px;
+    margin: 1px;
+}

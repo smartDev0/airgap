@@ -1,0 +1,174 @@
+@import '../scss/bootstrap-config';
+
+.root {
+    margin: 0;
+    white-space: break-spaces;
+}
+.display1 {
+    font-family: $primary-font-family;
+    font-size: 120px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 120px;
+}
+.display2 {
+    font-family: $primary-font-family;
+    font-size: 88px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 96px;
+}
+.display3 {
+    color: $white;
+    font-family: $primary-font-family;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0;
+}
+.heading1 {
+    font-family: $primary-font-family;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 56px;
+
+    @include media-breakpoint-up(md) {
+        font-size: 48px;
+        line-height: 64px;
+    }
+
+    @include media-breakpoint-up(lg) {
+        font-size: 57px;
+        line-height: 68px;
+    }
+}
+.heading2 {
+    font-family: $primary-font-family;
+    font-size: 32px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 40px;
+
+    @include media-breakpoint-up(md) {
+        font-size: 40px;
+        line-height: 56px;
+    }
+
+    @include media-breakpoint-up(lg) {
+        font-size: 44px;
+        line-height: 56px;
+    }
+}
+.heading3 {
+    font-family: $primary-font-family;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 1;
+    line-height: 32px;
+
+    @include media-breakpoint-up(md) {
+        font-size: 32px;
+        letter-spacing: 0.5;
+        line-height: 40px;
+    }
+
+    @include media-breakpoint-up(lg) {
+        font-size: 36px;
+        letter-spacing: 0;
+        line-height: 48px;
+    }
+}
+.heading4 {
+    font-family: $primary-font-family;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.8px;
+    line-height: 32px;
+
+    @include media-breakpoint-up(md) {
+        font-size: 24px;
+        letter-spacing: 0.5px;
+    }
+}
+.heading5 {
+    font-family: $primary-font-family;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 24px;
+
+    @include media-breakpoint-up(md) {
+        font-size: 16px;
+    }
+}
+.heading6 {
+    font-family: $primary-font-family;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: .5px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+.intro {
+    font-family: $secondary-font-family;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 32px;
+
+    @include media-breakpoint-up(md) {
+        font-size: 17px;
+        letter-spacing: 0.8px;
+    }
+}
+.body {
+    font-family: $secondary-font-family;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    line-height: 27px;
+
+    strong {
+        font-weight: 600;
+    }
+}
+.small {
+    font-family: $secondary-font-family;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 24px;
+    opacity: .7;
+}
+.large {
+    font-family: $secondary-font-family;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1.25px;
+    line-height: 24px;
+}
+.handwritten {
+    font-family: 'AntroVectra';
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 48px;
+}
+.blockquote {
+    font-family: $secondary-font-family;
+    font-size: 17px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    line-height: 32px;
+
+    @include media-breakpoint-up(md) {
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+}
+.paragraph {
+    margin-bottom: 16px;
+}
+.noWrap {
+    white-space: nowrap;
+}

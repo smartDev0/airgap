@@ -1,0 +1,37 @@
+@import '../scss/variables';
+@import '../scss/bootstrap-config';
+
+.container {
+    color: $body-color;
+    padding-bottom: $spacer * 10;
+    padding-top: $spacer * 10 + 90;
+
+    &-small {
+        padding-bottom: $spacer * 10;
+        padding-top: $spacer * 10 + 90;
+    }
+
+    &-offset {
+        margin-bottom: $spacer * -2;
+
+        @include media-breakpoint-up(md) {
+            margin-bottom: $spacer * -2;
+        }
+    }
+}
+
+.theme {
+    &-light {
+        background: $grey-100;
+        color: $body-color;
+    }
+
+    &-dark {
+        background: $blue-700;
+        color: $white;
+    }
+}
+
+.centered {
+    text-align: center;
+}

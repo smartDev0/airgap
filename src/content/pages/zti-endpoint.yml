@@ -1,0 +1,78 @@
+id: zti-endpoint
+hero:
+  title: Zero Trust Isolation™ for Endpoint
+copy:
+  text: |
+    Organizations' cyber-security defenses constantly need to be monitored and improved to prevent malware from moving laterally within a network, encrypting files and/or exfiltrating data.
+
+
+    At Airgap Networks, our focus is on detection and prevention by blocking and isolating intruder beachheads which are used to launch attack campaigns across networks. Our working assumption is that any device on an organization's network can become compromised, leading to our default security posture, the denial of all lateral traffic movement. Of course, there will be exceptions, and our simple-to-use policy management allows SecOps teams to be very prescriptive on which lateral traffic is permitted.
+
+
+    With Zero Trust Isolation, Airgap Networks is addressing two exploitable legacy networking vulnerabilities;
+
+    - Devices on a shared VLAN having a complete view and communication path to all other devices
+    - Inadequate or stale static policies that fail to restrict network level access to business applications
+
+
+    These vulnerabilities have led to IT teams unwittingly building data superhighways, which after careful examination by our cybersecurity experts, are most frequently used (or more accurately abused) by threat actors to propagate malware.
+
+
+    Zero Trust Isolation is a seamless deployment, no forklift upgrades, no agents needed on endpoints. Complements and augments existing security postures. Zero Trust Isolation inverts the traditional shared VLAN trust model concept, uniquely isolating devices and denying all lateral traffic by default. While simultaneously restricting network level access, by enforcing Single Sign-on / Multi-Factor Authentication challenges, to verify the access request intent.
+contents:
+  - text: >-
+      ### Visibility
+
+
+      Providing visibility for all traffic flows, including authorized and unauthorized communications, between all devices in a shared VLAN.
+    image: ../../images/uploads/network-communication.png
+  - text: >-
+      ### Ransomware Kill Switch
+
+
+      With “1-click” Instantly shutdown all lateral traffic when Ransomware is detected on the network.
+    image: ../../images/uploads/ransomwarekillswitchcommandcenter.png
+  - text: >-
+      ### Safeguarding  sensitive data
+
+
+      By blocking access to mission-critical services such as ERP, CRM, etc.,  employee and customer data is fully protected. Auto-enforcing business policies as devices enter and leave the network with autonomous policy controls.
+    image: ../../images/uploads/isolation-policies.png
+  - text: >-
+      ### Secure Application Access
+
+
+      Reduce the attack surface on enterprise private applications by eliminating network level access. While adding additional security with mandatory SSO and MFA for any user, any device, from any location.
+    image: ../../images/uploads/dashboard-2.png
+wiify:
+  title: What is in it for you
+  cards:
+    - title: For Security Executives
+      text: >-
+        - Augments and complements the existing security posture
+
+        - Business transparent emergency lockdown switch in the event of a ransomware attack
+
+        - Easy install and intuitive operational management
+
+        - Reduce the threat landscape with Zero Trust Isolation
+    - title: For Security Ops
+      text: >-
+        - No forklift upgrades allowing a seamless integration to existing
+        security posture/infrastructure
+
+        - No agents required, minimizing bloat on endpoints
+
+        - Implicit support for all endpoints including IoTs
+
+        - “1-click” to instantly lockdown the network allowing remediation without business impact
+cta:
+  title: Airgap Zero Trust Isolation Solution Brief
+  text: Airgap’s Ransomware Kill Switch™ is the industry's only software switch
+    that can stop ransomware propagation instantly in your enterprise campus
+    network.  Built on top of our patent-pending Zero Trust Isolation platform,
+    the solution can contain and reduce the blast radius of any malicious
+    attacks with a “1-click” software-based switch to instantly halt ransomware
+    propagation.
+  actionTitle: Download Solution Brief
+  actionURL: /resources/solution-brief/

@@ -1,0 +1,52 @@
+id: nsp
+hero:
+  title: >-
+    Network Segmentation
+cards:
+  logo: ../../images/uploads/gaspump.jpg
+  authorLogo: ../../images/uploads/DHS.jpg
+contents:
+  - text: >-
+      ### Webcast
+
+      The Colonial Pipeline Hack Is a new extreme for Ransomware. How you can start adopting zero trust architecture and confine ransomware’s damage?
+    videoURL: https://f.hubspotusercontent10.net/hubfs/6848218/720p_Colonial%20Pipeline%20720.mp4
+    buttonLink: https://www.brighttalk.com/webcast/18621/488014?utm_source=AirgapNetworks&utm_medium=brighttalk&utm_campaign=488014
+    posterId: webcast
+    shouldShowAuthors: true
+    authors:
+      - name: Howard Marshall
+        position: Former FBI Cybersecurity Division Official
+        image: ../../images/people/hmarshall.jpeg
+        linkedinUrl: https://www.linkedin.com/in/howardmarshall1/
+      - name: Kevin R. Brock
+        position: Cyber Security and mission technologies entrepreneur
+        image: ../../images/people/kbrock.jpeg
+        linkedinUrl: https://www.linkedin.com/in/kevin-r-brock-14276a59/
+      - name: Ritesh Agrawal
+        position: CEO of Airgap Networks
+        image: ../../images/people/ragrawal.jpg
+        linkedinUrl: https://www.linkedin.com/in/helloritesh/
+  - text: >-
+      ### Ransomware Kill Switch™
+
+      Ransomware Kill Switch sharply reduces the “blast radius” of an attack, usually to a single endpoint! Once your incident response team remediates the attack, the network is normalized by again flipping the “1-click” switch.
+    videoURL: https://f.hubspotusercontent10.net/hubfs/6848218/Ransomware%20Kill%20Switch%202m.mp4
+    buttonLink: /resources/ransomware-kill-switch-solution-brief/
+    posterId: cpra
+    shouldShowAuthors: false
+  - text: >-
+      ### "I Am Zero Trust" Live Stream at RSAC 2021
+
+      Industry 4.0 is forcing IT and OT to integrate. Colonial Pipeline Darkside Ransomware attacks bring our attention to IT/OT convergence and device proliferation of remote access to OT in manufacturing energy and utilities companies.
+    buttonLink: /theater-sessions/?verified=cd004eb4728a6f211278ee73aca69b59
+    videoURL: https://f.hubspotusercontent10.net/hubfs/6848218/2008%20Richard%20Stiennon,%20Airgap%20at%20RSA%202021.mp4
+    posterId: rsacITOT
+    shouldShowAuthors: false
+quote:
+  text: Ransomware shouldn't be the scourge that it is. This is a solvable problem, or at the very least one
+    that we know how to manage and limits its spread. No organization has an excuse anymore with today's security
+    solutions to get ripped by these attacks.
+  author: Dr. Chase Cunningham
+  linkedinUrl: https://www.linkedin.com/in/dr-chase-cunningham-54b26243/
+  authorImage: ../../images/people/ccunningham.png

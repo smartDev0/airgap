@@ -1,0 +1,122 @@
+- title: Maze Ransomware
+  intro: >-
+    According to an FBI advisory to the private sector, “Unknown cyber actors have targeted multiple US and
+    international businesses with Maze ransomware since early 2019. Maze encrypts files on an infected computer’s file
+    system and associated network file shares. Once the victim has been compromised, but prior to the encryption event,
+    the actors exfiltrate data.”
+  text: ''
+  image: ../../images/backgrounds/hospital.jpg
+- title: REvil Ransomware
+  intro: >-
+    You may have heard of REvil Ransomware because of a recent breach on media and entertainment lawyers Grubman Shire
+    Meiselas & Sacks. They recently confirmed reports that their firm has fallen victim to a ransomware attack.
+  text: >-
+    Several A-list celebrities that are clients of the law firm have potentially had data leaked on the dark web.
+    Madonna’s tour contract was allegedly leaked.
+  image: ../../images/backgrounds/cityskape.jpg
+- title: SNAKE (EKANS) Ransomware
+  intro: >-
+    Ekans Ransomware is a malware variant that infects industrial control systems to disrupt factory operations until a
+    ransom is paid. Security analysts say that Ekans is a spin-off of Snake Ransomware and has so far infected factories
+    related to the automobile and electronics sector, most notably Honda.
+  text: ''
+  image: ../../images/backgrounds/factory.jpg
+- title: Tycoon Ransomware
+  intro: >-
+    A new ransomware strain called Tycoon is seeking to wheel and deal its way into the Windows and Linux worlds, using
+    a little-known Java image format as part of its kill chain.
+  text: >-
+    The ransomware is housed in a trojanized version of the Java Runtime Environment (JRE). Its victims so far have
+    largely consisted of small- and medium-sized organizations in the education and software industries, researchers
+    said, which it targets with customized lures.
+  image: ../../images/backgrounds/data.jpg
+- title: Trickbot Ransomware
+  intro: >-
+    A phishing email campaign asking you to vote anonymously about Black Lives Matter is spreading the TrickBot
+    information-stealing malware.
+  text: >-
+    Started as a banking Trojan, the TrickBot has evolved to perform a variety of malicious behavior.
+  image: ../../images/backgrounds/cloud.jpg
+- title: Qakbot Trojan
+  intro: >-
+    Qakbot is a banking trojan that has been active for over a decade and relies on the use of keyloggers,
+    authentication cookie grabbers, brute force attacks and windows account credential theft, among other techniques.
+  text: >-
+    One of the authors of the research regarding the Qakbot trojan explained the following reasons why cybercriminals
+    are relying on trojans such as Qakbot to launch ransomware attacks
+  image: ../../images/backgrounds/cloud.jpg
+- title: PonyFinal Ransomware
+  intro: >-
+    Microsoft has warned organizations globally about a new type of data-stealing Java-based ransomware dubbed
+    “PonyFinal”. The tech giant described the malware as human-operated ransomware, which is distributed in an automated
+    way by attackers.
+  text: >-
+    “PonyFinal is a Java-based ransomware that is deployed in human-operated ransomware attacks. While Java-based
+    ransomware is not unheard of, they are not as common as other threat file types. However, organizations should focus
+    less on this payload and more on how it’s delivered,” Microsoft said in a post.
+  image: ../../images/backgrounds/data.jpg
+- title: Mailto (aka Netwalker Ransomware)
+  intro: >-
+    NetWalker appeared on the scene in mid-2019. Similar to other well-supported ransomware families, the operators
+    target high-value, global, entities. The group’s targets range across multiple industries and span the education,
+    medical, and Government sectors.
+  text: ''
+  image: ../../images/backgrounds/hospital.jpg
+- title: Ragnor Locker Ransomware
+  intro: >-
+    A ransomware called Ragnar Locker is specifically targeting software commonly used by managed service providers to
+    prevent their attack from being detected and stopped.
+  text: >-
+    Attackers first began using the Ragnar Locker ransomware towards the end of December 2019 as part of attacks against
+    compromised networks.
+  image: ../../images/backgrounds/data.jpg
+- title: Zeppelin Ransomware
+  intro: >-
+    Zeppelin is the newest member of the Delphi-based Ransomware-as-a-Service (RaaS) family initially known as Vega or
+    VegaLocker. Although it’s clearly based on the same code and shares most of its features with its predecessors, the
+    campaign that it’s been part of differs significantly from campaigns involving the previous versions of this
+    malware.
+  text: ''
+  image: ../../images/backgrounds/hospital.jpg
+- title: TFlower Ransomware
+  intro: >-
+    The strain dubbed TFlower splashed onto the scene in late July 2019. It infects organizations through unprotected or
+    poorly secured RDP ports. As soon as the furtive infiltration takes place, the ransomware runs a number of commands
+    to disable Volume Shadow Copy Service (VSS) and thereby thwart easy data recovery. When traversing the plagued
+    computers for valuable data to be encrypted, it ignores critical system files and objects stored in the Sample
+    Music folder.
+  text: ''
+  image: ../../images/backgrounds/data.jpg
+- title: MegaCortex Ransomware
+  intro: >-
+    MegaCortex made its debut in May 2019. It mainly targets businesses located in the US, Canada, the Netherlands, and
+    France. According to security experts’ findings, MegaCortex affects enterprise networks previously compromised by
+    notorious info-stealing Trojans called Qakbot and Emotet. This fact suggests that the distribution of this
+    ransomware might rely on backdoors created by other malware in a business ecosystem.
+  text: ''
+  image: ../../images/backgrounds/data.jpg
+- title: ProLock Ransomware
+  intro: >-
+    According to KrebsOnSecurity, Diebold Nixdorf, a major provider of automatic teller machines (ATMs) and payment
+    technology to banks and retailers, recently suffered a ransomware attack that disrupted some operations.
+  text: >-
+    An investigation determined that the intruders installed the ProLock ransomware, which experts say is a relatively
+    uncommon ransomware strain that has gone through multiple names and iterations over the past few months.
+  image: ../../images/backgrounds/data.jpg
+- title: DoppelPaymer Ransomware
+  intro: >-
+    The DoppelPaymer Ransomware is the latest family threatening to sell or publish a victim’s stolen files if they do
+    not pay a ransom demand.
+  text: >-
+    A new tactic being used by ransomware operators that perform network-wide encryption is to steal a victim’s files
+    before encrypting any devices. They then threaten to publish or sell this data if the victim does not pay the
+    ransom.
+  image: ../../images/backgrounds/data.jpg
+- title: Thanos Ransomware
+  intro: >-
+    Thanos is the first ransomware family to feature the weaponized RIPlace tactic, enabling it to bypass ransomware
+    protections.
+  text: >-
+    Researchers have uncovered a new ransomware-as-a-service (RaaS) tool, called Thanos, which they say is increasing
+    in popularity in multiple underground forums.
+  image: ../../images/backgrounds/data.jpg

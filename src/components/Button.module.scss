@@ -1,0 +1,95 @@
+@import '../scss/bootstrap-config';
+
+.button {
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    color: #3a3a3a;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Courier New';
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 24px;
+    padding: 3px 8px;
+    transition: all .2s ease-out;
+    text-align: center;
+    user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+
+    &:hover {
+        opacity: .95;
+        // transform: translateY(-2px);
+        box-shadow: 5px 5px 15px 0 rgba(110, 0, 255, 0.7);
+    }
+}
+
+.variantCta {
+    background: $btn_standard;
+    border: 2px solid $btn_standard;
+    border-radius: 5px;
+    color: $white;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0;
+    max-width: 100%;
+    min-width: 220px;
+    padding: $spacer * 1.8 $spacer * 3;
+
+    &-accent {
+        background: $accent;
+        border: 2px solid $accent;
+        border-radius: 5px;
+        color: $white;
+        font-weight: 600;
+        max-width: 100%;
+        min-width: 220px;
+        padding: $spacer * 1.8 $spacer * 3;
+    }
+}
+
+.variantPill {
+    background: $accent;
+    border: 1px solid $accent;
+    border-radius: 5px;
+    color: $white;
+    font-weight: 700;
+    padding: $spacer $spacer * 2;
+    box-shadow: 5px 5px 15px 0 rgba(110, 0, 255, 0.1);
+
+    &-accent {
+        background: $accent;
+        border: 1px solid $accent;
+        border-radius: 5px;
+        color: $white;
+        font-weight: 600;
+        padding: $spacer $spacer * 2;
+    }
+}
+
+.variantLink {
+    border-bottom: 2px solid $grey-900;
+    color: $white;
+    font-size: 16px;
+    padding: 0;
+    text-transform: uppercase;
+
+    &:hover {
+        border-bottom: 2px solid $white;
+    }
+}
+
+.variantLinkDark {
+    border-bottom: 2px solid $grey-900;
+    color: $grey-900;
+    font-size: 16px;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+.rounded {
+  border-radius: 30px;
+}

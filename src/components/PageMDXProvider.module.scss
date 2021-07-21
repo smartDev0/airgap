@@ -1,0 +1,13 @@
+@import '../scss/bootstrap-config';
+
+.heading {
+    margin-top: $spacer * 6;
+
+    &:first-child {
+        margin-top: 0;
+    }
+}
+
+.paragraph {
+    white-space: normal !important;
+}

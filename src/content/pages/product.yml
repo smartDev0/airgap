@@ -1,0 +1,88 @@
+id: product
+hero:
+  title: Ransomware Kill Switch™
+copy:
+  text: >-
+    Instantly stop ransomware in its tracks with the Ransomware Kill Switch™
+    from Airgap. Built on our Zero Trust Isolation Solution, this “1-click” kill
+    switch instantly blocks all lateral data paths.
+
+
+    Ransomware Kill Switch sharply reduces the “blast radius” of an attack, usually to a single endpoint! Once your incident response team remediates the attack, the network is normalized by again flipping the “1-click” switch. 
+
+
+    Over half of global organizations are being infiltrated by ransomware, and average ransoms are in the hundreds of thousands of dollars. The Ransomware Kill Switch is a requirement for organizations that want to avoid the high levels of disruption and expense caused by ransomware. 
+contents:
+  - text: >-
+      ### Fortify Incident Response Planning
+
+
+      A key part of shortening incident response comes with proper planning. Security teams can preset the Ransomware Kill Switch according to policies and risk levels that are appropriate to their organization.  
+
+
+      Administrators are ready beforehand to stop lateral propagation instantly. They can also block access to key enterprise resources immediately.
+
+
+      Furthermore, the Ransomware Kill Switch offers APIs to strengthen your existing security orchestration tools such as Endpoint Detection and Response (EDR) solutions, SIEM, or SOAR tools.  Your organization is locked down tight and impervious to the high costs of ransomware.  
+    image: ../../images/uploads/samplepolicies.png
+  - text: >-
+      ### Protect the Business without Disruption
+
+
+      The Ransomware Kill Switch can be configured to allow access to only necessary lateral flows or enterprise applications. 
+
+
+      Business operations may continue uninterrupted. For example, depending on the policy configuration, access to critical applications such as Office 365, Outlook, or Saleforce.com may continue to operate normally.
+    image: ../../images/uploads/ransomwarekillswitchcommandcenter.png
+  - text: >-
+      ### Lock Down the Network
+
+
+      The incident response team can mitigate ransomware’s impact in real-time and know for certain that the ransomware attack is contained instantaneously.
+
+
+      All unnecessary communications are blocked, dramatically reducing the risk of ransomware propagation among endpoints.
+    image: ../../images/uploads/ransomwarekillswitchsitestatus.png
+  - text: >-
+      ### Safeguard Sensitive Data
+
+
+      By blocking access to mission-critical services (such as ERP or CRM) employee and customer data is fully protected.
+    image: ../../images/uploads/dashentry.png
+  - text: >-
+      ### Seamless Cloud SaaS Management
+
+
+      Ransomware Kill Switch augments and integrates with existing security postures for easy deployment with no forklift upgrades. No agents are needed on endpoints.
+    image: ../../images/uploads/login.png
+wiify:
+  title: What's in it for you
+  cards:
+    - title: For Security Executives
+      text: >-
+        * This "1-Click" switch instantly protects the business without
+        disrupting it
+
+        * Remediation is transparent to end-users and customers
+
+        * Complements and augments existing security architecture
+
+        * The lockdown of the network eliminates the spread of ransomware
+    - title: For Security Ops
+      text: >-
+        * Ransowmare propagation risks is eliminated by shutting down lateral
+        data paths
+
+        * Agentless design works with any endpoint or IoT device
+
+        * Integrates seamlessly with the existing security posture
+
+        * Post remediation, the "1-click" switch normalizes the network and security postures
+cta:
+  title: Airgap Ransomware Kill Switch Solution Brief
+  text: Airgap’s Ransomware Kill Switch™ is the industry's only software switch
+    that can stop ransomware propagation instantly. See the Ransomware Kill
+    Switch Solution Brief for more details.
+  actionTitle: Download Solution Brief
+  actionURL: /resources/ransomware-kill-switch-solution-brief/
+  videoURL: https://f.hubspotusercontent10.net/hubfs/6848218/Ransomware%20Kill%20Switch%202m.mp4

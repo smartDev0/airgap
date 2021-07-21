@@ -1,0 +1,47 @@
+@import '../scss/bootstrap-config';
+
+.modalButtonContent {
+  height: 75%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.blockWrapper {
+  position: relative;
+}
+
+.blockButton {
+  background-color: transparentize($black, .65);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 6px;
+
+  &:hover {
+    cursor: not-allowed;
+  }
+}
+
+.downloadWrapper {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.close {
+  position: absolute;
+  top: 18px;
+  right: 10px;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 768px) {
+  .modalButtonContent {
+    height: 70%;
+  }
+}

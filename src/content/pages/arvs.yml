@@ -1,0 +1,33 @@
+id: arvs
+hero:
+  title: Airgap Ransomware Vulnerability Scanner™
+copy:
+  text: Airgap launches a new and no-cost tool to help businesses assess how vulnerable their network and endpoints are to lateral propagation threats due to excessive implicit trust found in traditional network. 
+form:
+  title: See it. Fix it. Today.
+  subtitle: You cannot protect what you cannot see.
+  paragraph: Ransomware attacks can exploit network vulnerabilities and gain access to sensitive data or business assets. Network visibility is the first step in an effective cybersecurity strategy to protect critical network assets and sensitive information.
+  paragraph2: You can use the complimentary Airgap Ransomware Vulnerability Scanner to help you scan your network and scan your Microsoft Active Directory and help you identify assets with open TCP ports which are vulnerable to a ransomware attack. Setting up the  Airgap Ransomware Vulnerability Scanner is easy. Just download and install it using the installation link.
+  submitResponse: Thanks for submitting the form.
+content:
+  cards:
+    - value: $20B
+      description: Estimated global damage caused by ransomwares in 2020
+    - value: 7, 854
+      description: Average number of ransomware attacks in a day
+    - value: 51%
+      description: Fortune 5000 companies impacted by ransomware in last 12 months
+    - value: 45min
+      description: Time required for ransomware to infect entire network
+  listTitle: "This free tool will scan your network and:"
+  list:
+    - text: Provide a report of the hosts on your network that are vulnerable to attack by the top ransomware families. This report can be used to drill-down and analyze the hosts which are vulnerable, so that appropriate remediation can be accomplished.
+    - text: Obtain an inventory of all assets and associated vulnerabilities on your local network and in the Windows Active Directory domain. This report can be used to analyze your assets by operating systems, functions and vulnerabilities.
+  image: ../../images/vulnerability-scanner.png
+  imageAlt: See It. Fix It. Today.
+  imageCaption: For more information, contact us at
+  email: scanner@airgap.io
+  about:
+    title: About Airgap Networks
+    text: Ransomware threat is growing rapidly. While there are a whole bunch of security companies that are trying to prevent ransomware from getting into your network, Airgap's "Zero Trust Isolation Platform" protects your organization even if your perimeter is breached or if you have unpatched vulnerable servers inside your data center. Additionally, Airgap’s “Ransomware Kill Switch” is the most potent ransomware response for the IT organization. Airgap can be deployed in minutes without any agents, forklift upgrades, or design changes. The company is founded by highly experienced cybersecurity experts and the solution is trusted by large enterprises and service providers. For more details, check out
+    link: https://airgap.io

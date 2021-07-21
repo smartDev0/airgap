@@ -1,0 +1,62 @@
+id: ztaa
+hero:
+  title: Zero Trust Gateway
+copy:
+  text: |
+    Airgap Zero Trust Gateways are part of the Zero Trust Isolation Platform, deployed at the customer premises and provide the ransomware protection.  Zero Trust Gateway can be Virtual Machine (support VMware or KVM Hypervisor) or physical hardware.
+specification:
+  title: Hardware Specifications
+  image: ../../images/uploads/appliance-mockup-white.png
+  table:
+    head:
+      title: ''
+      content: GW100
+    rows:
+      - title: CPU
+        content: Intel Atom® C3558 Processor/4C/2.2 GHz
+      - title: Memory
+        content: 8GB DDR4 ECC RAM
+      - title: Storage
+        content: 128GB M.2 SATA
+      - title: Ethernet Ports
+        content: 6x 1GbE RJ45
+      - title: POE Ports
+        content: 2x 1GbE POE+ (optional)
+      - title: Console
+        content: RS232 RJ45
+      - title: USB3.0
+        content: 1x USB3.0
+      - title: TPM
+        content: TPM 2.0
+      - title: Form Factor
+        content: Desktop
+      - title: Size (W x D x H)
+        content: 222 x 241 x 44 mm
+      - title: Power
+        content: |
+          12V@90W External Power Adapter
+          Optional: 54V@65W External Power Adapter
+      - title: Cooling
+        content: Active cooling, dual quite fans
+      - title: Operating Temperature
+        content: 0C to 40C
+      - title: Storage Temperature
+        content: -20C to 70C
+      - title: Regulation
+        content: |
+          EC Class A
+          FCC Class A
+          Compliance with European directives for EMC, Low Voltage, RoHS and WEEE
+          EMC-Compliance and test report for ETSI ES 201 468 Level2, EN55022, EN55024, EN 300 386
+          Compliance and test report for IUT-K21 enhanced
+          Safety: compliance and test report for EN 60950-1
+cta:
+  title: Airgap Zero Trust Isolation Solution Brief
+  text: Airgap’s Ransomware Kill Switch™ is the industry's only software switch
+    that can stop ransomware propagation instantly in your enterprise campus
+    network.  Built on top of our patent-pending Zero Trust Isolation platform,
+    the solution can contain and reduce the blast radius of any malicious
+    attacks with a “1-click” software-based switch to instantly halt ransomware
+    propagation.
+  actionTitle: Download Solution Brief
+  actionURL: /resources/solution-brief/

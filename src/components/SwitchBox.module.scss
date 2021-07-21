@@ -1,0 +1,40 @@
+@import '../scss/bootstrap-config';
+
+.checkbox {
+  display: none;
+
+  & + .switchbox {
+    background-color: #e74c3c;
+    border: 1px solid $grey-900;
+    border-radius: 20px;
+    cursor: pointer;
+    display: block;
+    height: 30px;
+    margin-bottom: 0;
+    overflow: hidden;
+    position: relative;
+    width: 60px;
+
+    &:after {
+      background-color: #fff;
+      border-radius: 20px;
+      content: ' ';
+      display: block;
+      height: 28px;
+      position: absolute;
+      right: 50%;
+      transition: all .1s linear;
+      width: 50%;
+    }
+  }
+
+  &:checked {
+    & + .switchbox {
+      background-color: #2ecc71;
+
+      &:after {
+        right: 0%;
+      }
+    }
+  }
+}

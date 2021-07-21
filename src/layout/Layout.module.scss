@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Gotham B';
+    src: local('Gotham B'), url('../fonts/Gotham\ Book.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Gotham A';
+    src: local('Gotham A'), url('../fonts/Gotham-Font/GothamLight.ttf') format('truetype');
+}
+.header {
+    position: relative;
+}
+

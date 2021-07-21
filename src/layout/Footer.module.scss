@@ -1,0 +1,19 @@
+@import '../scss/bootstrap-config';
+
+.footer {
+    background-color: $standard;
+    color: $white;
+    padding: $spacer * 6 0 $spacer * 4;
+
+    &-logo {
+        transition: width .3s linear;
+        display: inline-block;
+        font-size: 0;
+        height: auto;
+        width: 130px;
+    }
+}
+
+.logo {
+    width: 130px;
+}

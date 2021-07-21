@@ -1,0 +1,46 @@
+id: arfn
+hero:
+  title: The Airgap Anti-Ransomware for Non-Profit Organization
+copy:
+  text: >-
+    #### The Airgap Anti-Ransomware for Non-Profit Organization
+
+
+    There has never been a brighter spotlight on the societal scourge of ransomware over the past couple months, from gasoline shortage to disrupted healthcare IT, we see an international uproar for governments and industry to do more and hold cybercriminals accountable.
+
+
+    #### Ransomware Attacks Are Not a Matter of If, but When.
+
+
+    Don't assume you are not the target. Ransomware and malware target every business, person and entity with an internet presence. Non-Profits are no exception. 
+
+
+    As Ransomware varients are getting more sophisticated and distributed, it will happen rapidly at very large scale and consumer data is at a huge risk.
+content:
+  cards:
+    - attack: Food giant JBS Foods shuts down production after cyberattack
+      date: 31 May
+    - attack: Massachusetts' largest ferry service hit by ransomware attack
+      date: 2 June
+    - attack: UF Health Florida hospitals back to pen and paper after cyberattack
+      date: 3 June
+    - attack: Mississippi school districts targeted by ransomware attacks
+      date: 14 June
+form:
+  title: Corporate Social Responsibility
+  description: >-
+    This is a promotional program offering direct access our Ransomware Kill
+    Switch™  built on Zero Trust Isolation™ platform. The program sign-up
+    deadline is July 31, 2021. 
+
+
+    Airgap provides the Anti-Ransomware SaaS platform to stop the spread of ransomware in your environment. The agent-less solution can be implemented with no change to your existing network design or topology, resulting in micro-segmentation for any devices protected by Airgap.
+
+
+    The industry’s first Ransomware Kill Switch™  provides an automated solution to lock down your most critical network assets at the first indication of an attack. 
+
+
+    The SaaS management console provides complete visibility and control over the device-to-device & device-to-application communications, allowing for real-time business/security policy creation and enforcement.
+  hubspotFormId: 6d5ef788-c45f-4a64-992f-91bf6012c9a1
+  submitResponse: "Thanks for the interest on Airgap Anti-Ransomware for
+    Non-Profit program. We will follow up with you shortly. Thank you. "

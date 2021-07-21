@@ -1,0 +1,9 @@
+@import '../scss/bootstrap-config';
+
+.table {
+    thead {
+        td {
+            background-color: $grey-100;
+        }
+    }
+}

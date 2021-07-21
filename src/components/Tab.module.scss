@@ -1,0 +1,31 @@
+@import '../scss/bootstrap-config';
+
+.tab {
+  cursor: pointer;
+  display: flex;
+  padding: $spacer * 3.5;
+
+  &-active {
+    border-left: 6px solid #39f0ba;
+    border-radius: 5px;
+    // box-shadow: 5px 5px 10px transparentize($black, .85);
+    // padding-left: $spacer * 3.5 - 6px;
+    padding: 2.5rem 3rem 3rem;
+    width: calc(60% - 8rem);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(30.74%, #23273c), color-stop(103.33%, #141529));
+    background: -o-linear-gradient(top, #23273c 30.74%, #141529 103.33%);
+    background: linear-gradient(180deg, #23273c 30.74%, #141529 103.33%);
+    text-decoration: none;
+    position: relative;
+    -webkit-transition: top .2s, background-image .2s;
+    -o-transition: top .2s, background-image .2s;
+    transition: top .2s, background-image .2s;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+  }
+}
+
+.details {
+  padding-left: $spacer * 3.5;
+}
